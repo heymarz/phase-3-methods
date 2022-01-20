@@ -16,7 +16,8 @@ def add(num1, num2)
 end
 
 def halve(number)
-  if (number.class != Integer) return nil
+  if (number.class != Integer) 
+    return nil
   end
-   num1 / 2
+   number / 2
 end
